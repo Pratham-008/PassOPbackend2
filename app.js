@@ -9,7 +9,7 @@ dotenv.config();
 
 
 
-const port = process.env.port;
+const port = process.env.PORT;
 const url = process.env.mongo_URI;
 const client = new MongoClient(url);
 
